@@ -9,7 +9,6 @@ class StatisticCalculator:
         self.column_name = column_name
 
     def get_column_data(self):
-        # Get the column index based on the header
         header = self.data[0]
         try:
             column_index = header.index(self.column_name)
